@@ -13,28 +13,36 @@ const Navbar: React.FC = () => {
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='flex justify-between h-16 items-center'>
           {/* Logo / Brand */}
-          {/* <Link href='/' className='flex items-center gap-2'>
+          <Link href='/' className='flex items-center gap-2 mt-8'>
             <Image
-              src='/boxing_logo.jpg'
-              alt='The Greatness Boxing Academy Logo'
-              width={36}
-              height={36}
+              src='/Ramadan_logo.png'
+              alt='Ramadan App Logo'
+              width={144}
+              height={144}
               priority
             />
             <span className='text-xl font-bold text-red-600 dark:text-red-400'>
-              Greatness Boxing Academy
+              Ramadan App
             </span>
-          </Link> */}
+          </Link>
 
           {/* Desktop Menu */}
           <ul className='hidden md:flex space-x-6'>
             <li>
-              <Link href='/prayer' className='hover:text-red-600'>
+              <Link
+                href='https://www.islamicfinder.org/prayer-times/'
+                className='hover:text-red-600'
+                target='_blank'
+              >
                 Prayer Times
               </Link>
             </li>
             <li>
-              <Link href='/rules' className='hover:text-red-600'>
+              <Link
+                href='https://muslimaid.org/media-centre/blog/ramadan-rules/'
+                className='hover:text-red-600'
+                target='_blank'
+              >
                 Rules
               </Link>
             </li>
@@ -99,18 +107,20 @@ const Navbar: React.FC = () => {
         <ul className='md:hidden bg-gray-900 dark:bg-black px-4 pt-2 pb-4 space-y-1'>
           <li>
             <Link
-              href='/prayer'
+              href='https://www.islamicfinder.org/prayer-times/'
               onClick={() => setIsOpen(false)}
               className='block px-3 py-2 rounded-md hover:bg-red-600 hover:text-white transition'
+              target='_blank'
             >
               Prayer Times
             </Link>
           </li>
           <li>
             <Link
-              href='/rules'
+              href='https://muslimaid.org/media-centre/blog/ramadan-rules/'
               onClick={() => setIsOpen(false)}
               className='block px-3 py-2 rounded-md hover:bg-red-600 hover:text-white transition'
+              target='_blank'
             >
               Rules
             </Link>
