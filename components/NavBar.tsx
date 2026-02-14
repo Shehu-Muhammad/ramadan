@@ -11,14 +11,14 @@ const Navbar: React.FC = () => {
   return (
     <nav className='fixed w-full bg-gray-900 text-white dark:bg-black z-50 shadow-md'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-        <div className='flex justify-between h-16 items-center'>
+        <div className='flex justify-between h-20 md:h-16 items-center'>
           {/* Logo / Brand */}
-          <Link href='/' className='flex items-center gap-2 mt-8'>
+          <Link href='/' className='flex items-center gap-2'>
             <Image
               src='/Ramadan_logo.png'
               alt='Ramadan App Logo'
-              width={144}
-              height={144}
+              width={40}
+              height={40}
               priority
             />
             <span className='text-xl font-bold text-[#D4AF7B] dark:[#D4AF7B]'>

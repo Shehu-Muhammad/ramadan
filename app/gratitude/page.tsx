@@ -1,6 +1,6 @@
 export default function Gratitude() {
   return (
-    <section className='bg-gradient-to-b from-emerald-50 to-white py-32 px-6'>
+    <section className='bg-gradient-to-b from-emerald-50 to-white py-24 px-6'>
       <div className='max-w-4xl mx-auto'>
         {/* <!-- Heading --> */}
         <div className='text-center mb-12'>
