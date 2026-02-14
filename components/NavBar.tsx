@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
               height={144}
               priority
             />
-            <span className='text-xl font-bold text-red-600 dark:text-red-400'>
+            <span className='text-xl font-bold text-[#D4AF7B] dark:[#D4AF7B]'>
               Ramadan App
             </span>
           </Link>
@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
             <li>
               <Link
                 href='https://www.islamicfinder.org/prayer-times/'
-                className='hover:text-red-600'
+                className='hover:text-[#D4AF7B]'
                 target='_blank'
               >
                 Prayer Times
@@ -40,24 +40,24 @@ const Navbar: React.FC = () => {
             <li>
               <Link
                 href='https://muslimaid.org/media-centre/blog/ramadan-rules/'
-                className='hover:text-red-600'
+                className='hover:text-[#D4AF7B]'
                 target='_blank'
               >
                 Rules
               </Link>
             </li>
             <li>
-              <Link href='/meals' className='hover:text-red-600'>
+              <Link href='/meals' className='hover:text-[#D4AF7B]'>
                 Meals
               </Link>
             </li>
             <li>
-              <Link href='/workout' className='hover:text-red-600'>
+              <Link href='/workout' className='hover:text-[#D4AF7B]'>
                 Workout
               </Link>
             </li>
             <li>
-              <Link href='/gratitude' className='hover:text-red-600'>
+              <Link href='/gratitude' className='hover:text-[#D4AF7B]'>
                 Gratitude
               </Link>
             </li>
