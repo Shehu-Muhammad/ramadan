@@ -13,7 +13,10 @@ const Navbar: React.FC = () => {
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='flex justify-between h-20 md:h-16 items-center'>
           {/* Logo / Brand */}
-          <Link href='/' className='flex items-center gap-2'>
+          <Link
+            href='/'
+            className='flex items-center gap-2 hover:text-[#D4AF7B] transition'
+          >
             <Image
               src='/Ramadan_logo.png'
               alt='Ramadan App Logo'
@@ -47,7 +50,11 @@ const Navbar: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link href='/meals' className='hover:text-[#D4AF7B]'>
+              <Link
+                href='#'
+                className='text-gray-400 cursor-not-allowed'
+                onClick={(e) => e.preventDefault()}
+              >
                 Meals
               </Link>
             </li>
@@ -127,7 +134,7 @@ const Navbar: React.FC = () => {
           </li>
           <li>
             <Link
-              href='/meals'
+              href='#'
               onClick={() => setIsOpen(false)}
               className='block px-3 py-2 rounded-md hover:bg-red-600 hover:text-white transition'
             >
