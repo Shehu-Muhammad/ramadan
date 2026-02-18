@@ -2,7 +2,7 @@ import PrayerTimes from './components/PrayerTimes';
 
 export default function Home() {
   return (
-    <section className='bg-gradient-to-b from-emerald-50 to-white py-24 px-6 min-h-screen'>
+    <main className='bg-gradient-to-b from-emerald-50 to-white py-24 px-6 min-h-screen'>
       <div className='max-w-4xl mx-auto'>
         {/* Heading */}
         <div className='text-center mb-12'>
@@ -23,6 +23,6 @@ export default function Home() {
           <PrayerTimes />
         </div>
       </div>
-    </section>
+    </main>
   );
 }

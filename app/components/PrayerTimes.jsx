@@ -137,9 +137,9 @@ export default function PrayerTimes() {
           <div className="flex items-start gap-4">
             <span className="mt-2 w-3 h-3 bg-emerald-600 rounded-full"></span>
             <div>
-              <h3 className="font-semibold text-emerald-800 text-lg">
+              <h2 className="font-semibold text-emerald-800 text-lg">
                 Suhoor Ends (Fajr)
-              </h3>
+              </h2>
               <p className="text-gray-600">{fajr}</p>
             </div>
           </div>
@@ -147,9 +147,9 @@ export default function PrayerTimes() {
           <div className="flex items-start gap-4">
             <span className="mt-2 w-3 h-3 bg-emerald-600 rounded-full"></span>
             <div>
-              <h3 className="font-semibold text-emerald-800 text-lg">
+              <h2 className="font-semibold text-emerald-800 text-lg">
                 Iftar (Maghrib)
-              </h3>
+              </h2>
               <p className="text-gray-600">{maghrib}</p>
             </div>
           </div>
