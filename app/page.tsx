@@ -1,11 +1,17 @@
 import Countdown from './components/Countdown';
 
 async function getPrayerTimes() {
-  const res = await fetch('http://localhost:3000/api/prayer', {
-    cache: 'no-store',
-  });
+  const res = await fetch(
+    'https://api.aladhan.com/v1/timingsByCity?city=London&country=UK&method=2',
+    { next: { revalidate: 86400 } /*24 hours*/ },
+  );
 
-  return res.json();
+  const data = await res.json();
+
+  return {
+    fajr: data.data.timings.Fajr,
+    maghrib: data.data.timings.Maghrib,
+  };
 }
 
 export default async function Home() {
