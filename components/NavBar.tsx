@@ -116,7 +116,7 @@ const Navbar: React.FC = () => {
             <Link
               href='https://www.islamicfinder.org/prayer-times/'
               onClick={() => setIsOpen(false)}
-              className='block px-3 py-2 rounded-md hover:bg-red-600 hover:text-white transition'
+              className='block px-3 py-2 rounded-md hover:bg-emerald-700 hover:text-white transition'
               target='_blank'
             >
               Prayer Times
@@ -126,7 +126,7 @@ const Navbar: React.FC = () => {
             <Link
               href='https://muslimaid.org/media-centre/blog/ramadan-rules/'
               onClick={() => setIsOpen(false)}
-              className='block px-3 py-2 rounded-md hover:bg-red-600 hover:text-white transition'
+              className='block px-3 py-2 rounded-md hover:bg-emerald-700 hover:text-white transition'
               target='_blank'
             >
               Rules
@@ -136,7 +136,7 @@ const Navbar: React.FC = () => {
             <Link
               href='#'
               onClick={() => setIsOpen(false)}
-              className='block px-3 py-2 rounded-md hover:bg-red-600 hover:text-white transition'
+              className='block px-3 py-2 rounded-md hover:bg-emerald-700 hover:text-white transition'
             >
               Meals
             </Link>
@@ -145,7 +145,7 @@ const Navbar: React.FC = () => {
             <Link
               href='/workout'
               onClick={() => setIsOpen(false)}
-              className='block px-3 py-2 rounded-md hover:bg-red-600 hover:text-white transition'
+              className='block px-3 py-2 rounded-md hover:bg-emerald-700 hover:text-white transition'
             >
               Workout
             </Link>
@@ -154,7 +154,7 @@ const Navbar: React.FC = () => {
             <Link
               href='/gratitude'
               onClick={() => setIsOpen(false)}
-              className='block px-3 py-2 rounded-md hover:bg-red-600 hover:text-white transition'
+              className='block px-3 py-2 rounded-md hover:bg-emerald-700 hover:text-white transition'
             >
               Gratitude
             </Link>
